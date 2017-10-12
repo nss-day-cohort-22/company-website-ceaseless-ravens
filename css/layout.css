@@ -1,0 +1,68 @@
+@font-face {
+    font-family: kellyann;
+    src: url(/fonts/KellyAnnGothic.ttf);
+}
+
+body {
+    box-sizing: border-box;
+    color:#1f1838;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Eagle Lake', cursive;
+    color: #40162e;    
+}
+ 
+.header {
+    border-bottom: 1px solid;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.header h1 {
+    margin-bottom: .2em;    
+}
+
+.main-content {
+    min-height: calc(100vh - 58px); 
+}
+
+.nav {
+    background-color: #40162e;
+    color: rgb(236, 233, 233);
+    font-family: 'Eagle Lake', cursive;
+}
+
+.nav img {
+    margin: .5em 3em 0em .5em;
+}
+.nav ul {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.footer {
+    background-color: #40162e;
+    color: white;
+    padding: .2em;
+}
+
+.footer img {
+  margin-left: .1em;
+  margin-right: .1em;
+}
+
+.footer span {
+    padding-bottom: .2em;
+}
+
+#gmail-logo {
+    margin-bottom: .2em;
+}
