@@ -5,7 +5,7 @@
 
 body {
     background-image: url("/images/decorative-1221446_1280.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat-y;
     box-sizing: border-box;
     color:#1f1838;
