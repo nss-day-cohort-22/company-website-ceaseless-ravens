@@ -11,13 +11,18 @@ for (key in retrievedProductList) {
             let product = productCategories[i]
                         
             productsContainerEl.innerHTML += `
-                <img src="${product.picture}">
-                <p>Name: ${product.name}</p>
-                <p>Description: ${product.description}</p>
-                <p>Price: ${product.price}</p>
-                <p>Side-effects: ${product.sideEffects}</p> 
-                <hr>
+                <article class="product">
+                    <section class="product-image-container">        
+                        <img src="${product.picture}">
+                    </section>
+                    <section class="product-info-container">   
+                        <p class="name">Name: ${product.name}</p>
+                        <p class="price">Price: $${product.price}</p>
+                        <p class="description">Description: ${product.description}</p>
+                        <p class="side-effects">Side-effects: ${product.sideEffects}</p> 
+                    </section>
+                </article>
                 `
-}
+        }
 
 }
