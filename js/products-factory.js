@@ -1,45 +1,49 @@
 const allProducts = {}
-const elixers = []
+const elixirs = []
 
 const zac = {
     "name": "Zac",
     "price": 10.00,
-    "picture": "http://placeimg.com/150/200/any",
+    "picture": "/images/elixir3_web.jpg",
     "description": "Slip this elixer into your next cocktail and become Zac Efron for 8 hours.",
-    "sideEffects": "May turn into Zac Braff."
+    "sideEffects": "You may turn into Zac Braff.",
+    "type": "elixir"
 } 
 
 const wizard = {
     "name": "Wizard",
     "price": 10.00,
-    "picture": "http://placeimg.com/150/200/any",
+    "picture": "/images/elixir2_web.jpg",
     "description": "Become a wizard for 8 hours",
-    "sideEffects": "May turn into a total jerk."
+    "sideEffects": "You may turn into a total jerk.",
+    "type": "elixir"
 } 
 
 const invisibility = {
     "name": "Invisibility",
     "price": 10.00,
-    "picture": "http://placeimg.com/150/200/any",
+    "picture": "/images/elixir1_web.jpg",
     "description": "Become a invisible for 8 hours",
-    "sideEffects": "May turn into a total jerk."
+    "sideEffects": "You may turn into a total jerk.",
+    "type": "elixir"
 } 
 
 const transfiguration = {
     "name": "Transfiguration",
     "price": 10.00,
-    "picture": "http://placeimg.com/150/200/any",
+    "picture": "/images/elixir4_web.jpg",
     "description": "Become an animal for 8 hours",
-    "sideEffects": "You turn into a slow loris."
+    "sideEffects": "You may turn into a slow loris.",
+    "type": "elixir"
 } 
 
-elixers.push(zac)
-elixers.push(wizard)
-elixers.push(invisibility)
-elixers.push(transfiguration)
+elixirs.push(zac)
+elixirs.push(wizard)
+elixirs.push(invisibility)
+elixirs.push(transfiguration)
 
 
-allProducts.elixers = elixers;
+allProducts.elixirs = elixirs;
 
 
 

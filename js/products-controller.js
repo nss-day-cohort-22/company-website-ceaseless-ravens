@@ -13,7 +13,7 @@ for (key in retrievedProductList) {
             productsContainerEl.innerHTML += `
                 <article class="product">
                     <section class="product-image-container">        
-                        <img src="${product.picture}">
+                        <img src="${product.picture}" width="150" alt="${product.name} - ${product.type}">
                     </section>
                     <section class="product-info-container">   
                         <p class="name">Name: ${product.name}</p>
