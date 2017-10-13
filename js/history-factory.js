@@ -8,7 +8,7 @@ const entry1 = {
 const entry2 = {
     "date":"1841", 
     "title":"First Storefront",
-    "content":"In the mid 1800's nostrum begain to provide it's products to local stores in and around the london area",
+    "content":"In the mid 1800's Nostrum begain to provide it's products to local stores in and around the london area",
     "image":"/images/history-entry2.jpg"
 }
 const entry3 = {
