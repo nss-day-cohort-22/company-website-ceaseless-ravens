@@ -1,0 +1,12 @@
+.history-entry{
+    background-color: hsla(324, 49%, 17%, 0.616);    
+    display: grid;
+    grid-template-columns: auto 200px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 5px 5px 5px 30px;
+}
+.history-entry img {
+    width: 200px
+}
