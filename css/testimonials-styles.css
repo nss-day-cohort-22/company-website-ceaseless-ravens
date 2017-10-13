@@ -1,14 +1,14 @@
 .container {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-row-gap: 15em;
+  grid-row-gap: 10em;
   margin-top: 1em;
 }
 
 
 .set img {
   float: right;
-  padding: 0 .5em 1em 0;
+  padding: 0 9.5em 1em 0;
 }
 
 
@@ -18,29 +18,13 @@
 }
 
 .first img {
-  padding: 0 0 1em .5em;
+   padding: 0 0 1em 9.5em;
 }
 
-
-
-
-
-
-
-
-@media (max-width: 860px) {
- 
-  .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
- 
-
+.uno {
+  padding-right: 9.5em;
 }
 
-
-
-
-
+.second {
+  padding-left: 9.5em;
+}
