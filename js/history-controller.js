@@ -12,7 +12,7 @@ for (let i = 0; i < historyEntries.length; i++) {
     <article class="history-entry">
         <section class="content">
         <h2>${element.date}</h2>
-        <p>${element.title}</p>
+        <h3>${element.title}</h3>
         <p>${element.content}</p>
         </section>
         <section class="image">
