@@ -1,9 +1,10 @@
-.centered-content {
-    width: 80%;
-    margin: 1em auto;
-}
+/* .centered-content {
+    
+} */
 
 .product-container {
+    width: 80%;
+    margin: 1em auto;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto ;
@@ -40,6 +41,7 @@
 
 @media only screen and (max-width: 850px){
     .product-container {
+        width: 84%;
         grid-template-columns: 100%;
         grid-template-rows: auto;
     }
@@ -58,7 +60,14 @@
 }
 
 @media only screen and (max-width: 570px) {
+  
     .product p {
         font-size: .8em;
     }
+
+    .product {
+        grid-template-columns: 28% 72%;
+        
+    }
+
 }
