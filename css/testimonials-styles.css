@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 10em;
+  margin-top: 1em;
+}
+
+
+.set img {
+  float: right;
+  padding: 0 9.5em 1em 0;
+}
+
+
+.productIMG img {
+  height: 20em;
+  width: 25em;
+}
+
+.first img {
+   padding: 0 0 1em 9.5em;
+}
+
+.uno {
+  padding-right: 9.5em;
+}
+
+.second {
+  padding-left: 9.5em;
+}

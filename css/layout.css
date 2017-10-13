@@ -11,6 +11,11 @@ body {
     color:#1f1838;
     padding: 0px;
     margin: 0px;
+    font-family: Georgia, serif; 
+}
+
+p {
+    font-size: .9rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-content {
-    min-height: calc(100vh - 50px); 
+    min-height: calc(100vh - 38px); 
 }
 
 .nav {
@@ -54,10 +59,20 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 10px;
 }
 
+.nav li a, .nav li a:visited {
+    text-decoration: none;
+    color: rgb(236, 233, 233);
+}
+
+.nav li a:hover {
+    color: #ddc19f;
+    transition: all ease 0.3s;
+}
+
 .footer {
     background-color: #40162e;
     color: white;
-    padding: .2em;
+    padding: .2em 0 .2em .5em;
 }
 
 .footer img {
@@ -67,8 +82,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer span {
     padding-bottom: .2em;
+    padding-left: .2em;
 }
 
-#gmail-logo {
-    margin-bottom: .2em;
+.phone-number {
+    font-size: .9em;
 }
+
+.fa {
+    font-size: 30px;
+    text-decoration: none;
+    margin: .5em .3em;
+    color: rgb(236, 233, 233);
+}
+.fa-twitter {
+    font-size: 40px;
+}
+.fa:hover {
+    color: #ddc19f;
+    transition: all ease 0.3s;
+}
+
+
