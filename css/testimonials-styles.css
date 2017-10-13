@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 15em;
+  margin-top: 1em;
+}
+
+
+.set img {
+  float: right;
+  padding: 0 .5em 1em 0;
+}
+
+
+.productIMG img {
+  height: 20em;
+  width: 25em;
+}
+
+.first img {
+  padding: 0 0 1em .5em;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 860px) {
+ 
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+ 
+
+}
+
+
+
+
+
